@@ -80,15 +80,15 @@ def generate_pdf(score, summary, citations, lit_paragraph):
 st.set_page_config(page_title="Research Paper Relevance Checker", page_icon="📄")
 st.title("📄 Research Paper Relevance Checker")
 
-st.markdown("Upload a research paper and either enter your thesis topic or upload your thesis draft to check for relevance.")
+st.markdown("Upload a research paper and enter your thesis topic or upload your thesis draft (optional) to check for relevance.")
 
 uploaded_paper = st.file_uploader("📎 Upload a research paper (PDF)", type="pdf")
 
 col1, col2 = st.columns(2)
 with col1:
-    thesis_topic = st.text_input("📝 Or enter your thesis topic manually")
+    thesis_topic = st.text_input("📝 Next, enter your thesis topic manually")
 with col2:
-    thesis_file = st.file_uploader("📄 Or upload your thesis (PDF)", type="pdf", key="thesis")
+    thesis_file = st.file_uploader("📄 Or upload your thesis as a PDF (optional)", type="pdf", key="thesis")
 
 submit = st.button("🔍 Analyze Paper")
 
