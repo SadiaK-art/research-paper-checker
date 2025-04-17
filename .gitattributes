@@ -1,1 +1,5 @@
+# Treat Jupyter Notebooks as Python
 *.ipynb linguist-language=Python
+
+# Ignore .ipynb files in language statistics
+.ipynb linguist-detectable=false
