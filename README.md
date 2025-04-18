@@ -4,6 +4,8 @@ Welcome to the **Research Paper Relevance Checker** — a simple and clean tool 
 
 Instead of manually skimming pages just to figure out if a paper is relevant to your thesis, this tool turns the process into a fast, automated experience.
 
+🌐 Try it live: [Research Paper Relevance Checker](https://research-paper-checker-uhr9ofonncrlcirhqwm3vv.streamlit.app/)
+
 ---
 
 ## ✨ How It Works
